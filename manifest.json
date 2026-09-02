@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Switch Google Account",
+  "version": "1.2",
+  "description": "Switch between the first 2 logged-in Google accounts in the current tab URL.",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "icons": {
+      "16": "icons/icon_u0_16.png",
+      "48": "icons/icon_u0_48.png",
+      "128": "icons/icon_u0_128.png"
+    },
+  "action": {
+    "default_title": "Switch Google Account",
+    "default_icon": {
+      "16": "icons/icon_unavail_16.png",
+      "48": "icons/icon_unavail_48.png",
+      "128": "icons/icon_unavail_128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
