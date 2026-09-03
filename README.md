@@ -7,9 +7,11 @@ I created this extension because I commonly switch between my personal and schoo
 and Google's switcher (clicking profile picture) annoyingly opens a new tab each time you switch.
 
 ## Installation
-At this time *Switch Google Account* is not available on the Chrome Web Store. Please follow the steps below to install.
-1. **Clone** or download the repo to your computer
-2. Go to [chrome://extensions](chrome://extensions) (or any Chromium browser's equivalent)
+At this time *Switch Google Account* is not available on the Chrome Web Store. 
+Please follow the steps below to install on any Chromium browser.
+
+1. **Clone** the repo to your computer
+2. Go to `chrome://extensions`
 3. Switch on **Developer Mode**
 4. Select **Load Unpacked** and open the repo's root folder
 5. Accept any permissions. That's it!
