@@ -6,6 +6,14 @@ Once clicked, the extension replaces that part of the URL with the other account
 I created this extension because I commonly switch between my personal and school account,
 and Google's switcher (clicking profile picture) annoyingly opens a new tab each time you switch.
 
+## Installation
+At this time *Switch Google Account* is not available on the Chrome Web Store. Please follow the steps below to install.
+1. **Clone** or download the repo to your computer
+2. Go to [chrome://extensions](chrome://extensions) (or any Chromium browser's equivalent)
+3. Switch on **Developer Mode**
+4. Select **Load Unpacked** and open the repo's root folder
+5. Accept any permissions. That's it!
+
 ## Feature Roadmap
 - [x] Clicking switches accounts if URL contains Google account
 - [x] Icon changes if Google account is detected in the URL
